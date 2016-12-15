@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: 'Russo One', sans-serif;
+	color:#FFF;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header{
+    float:left;
+}
+body {
+	background-image:url(../pictures/black_background_pattern_light_texture_55291_1920x1080.jpg);
+background-repeat:repeat-y;
+}
+
+h1 {
+   color:#FFF;
+    float:left;
+}
+
+nav {
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px RGBA(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 8px 20px 8px 20px;
+	overflow: hidden;
+	width: 100%; 
+	margin-left: 0;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+	nav ul li {
+		display: inline-block;
+		list-style-type: none;
+		
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s; 
+	}
+	
+		nav > ul > li > a {
+			color: #aaa;
+			display: block;
+			line-height: 56px;
+			padding: 0 100px;
+			text-decoration: none;
+			position: static; 
+		}
+		
+		nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+        }
+
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+		
+		
+h1 {
+	margin-left: 30px;
+}
+.interface {
+	text-align: center;
+	height: 60px;
+	margin: 40px 0px 0px 0px;
+	width:auto; 
+	font-size: 36px;
+	font-weight:bold;
+}
+.gi  {
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+
+}
+
+.video {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+}
+
+footer {
+	margin-top:100px;
+	text-align:center;
+}
